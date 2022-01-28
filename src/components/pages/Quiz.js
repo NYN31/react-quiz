@@ -1,16 +1,16 @@
 import Answers from "../Answers";
-import ProgressBar from "../ProgressBar";
 import MiniPlayer from "../MiniPlayer";
+import ProgressBar from "../ProgressBar";
 
-export default function Quiz(){
-  return(
+export default function Quiz() {
+  return (
     <>
-            <h1>Pick three of your favorite Star Wars Flims</h1>
-        <h4>Question can have multiple answers</h4>
+      <h1>Pick three of your favorite Star Wars Flims</h1>
+      <h4>Question can have multiple answers</h4>
 
-        <Answers />
-        <ProgressBar />
-        <MiniPlayer />
+      <Answers />
+      <ProgressBar />
+      <MiniPlayer />
     </>
   );
 }
